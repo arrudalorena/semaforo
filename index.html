@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="container">
+      <div class="semaforo">
+        <div class="led" id="vermelho"></div>
+        <div class="led" id="amarelo"></div>
+        <div class="led" id="verde"></div>
+       </semaforo>  
+    </div>
+    <div>
+        <button class="btnvermelho" onclick="ligar('vermelho')">vermelho</button>
+        <button class="btnamarelo" onclick="ligar('amarelo')">amarelo</button>
+        <button class="btnverde" onclick="ligar('verde')">verde</button>
+        <button class="automatico" onclick="automatico()">Automatico</button>
+        <button class="desligado" onclick="desligado()">desligado</button>
+        <button onclick="intermitente()">Intermitente</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
